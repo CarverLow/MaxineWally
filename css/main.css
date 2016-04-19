@@ -1,0 +1,164 @@
+MaxineWally
+
+body {
+	font-family: 
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	position: relative;
+	top: 65px;
+	left: 130px;
+	width: 200px;
+	height: 100px;
+	border: 2px #000000;
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+}
+img.resize{
+   max-width: 74%;
+   max-height: 74%;
+}
+
+div.name {
+	font-size: 20px;
+	font-family: gill sans;
+	font-variant: small caps;
+	position: absolute;
+	top: 102px;
+	left: 360px;
+	height: 50px;
+	width: 300px;
+	padding: 0px 0px 0px 5px;
+	border: 2px #000000;
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+div.name h1 {
+	font-variant: small caps;
+}
+
+div.contact {
+	font-size: 12px;
+	font-family: gill sans;
+	position: absolute;
+	top: 104px;
+	left: 340px;
+	height: 44px;
+	width: 250px;
+	padding: 25px 25px 0px 25px;
+	border: 2px #000000;
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-style: solid;
+	border-right-style: none;
+}
+
+div.ArticleName {
+	position: absolute;
+	font-family: bembo;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 30px 30px 0px 0px;
+	border: 2px #000000;
+	border-top-style: solid;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	top: 173px;
+	left: 380px;
+	width: 500px;
+}
+
+div.date {
+	position: absolute;
+	font-family: gill sans;
+	font-size: 16px;
+	top: 230px;
+	left: 380px;
+}
+
+div.article {
+	position: absolute;
+	font-family: bembo;
+	font-size: 15px;
+	left: 380px;
+	top: 245px;
+	width: 520px;
+	border: 2px #000000;
+}
+
+nav {
+	position: absolute;
+	font-family: gill sans;
+	font-variant: small caps
+	line-height: 3.5;
+	width: 248px;
+	border-top-style: solid;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	top: 149px;
+	left: 90px;
+	margin: 25px auto;
+}
+
+.menu-item h4 {
+	color: #00000;
+	font-size: 18px;
+	font-weight: 600;
+	font-variant: small caps;
+	padding: 0px 5px 0px 90px;
+	font-variant: small caps;
+	line-height: 3.0;	
+}
+
+.menu-item h4 a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+
+.menu-item ul {
+	height: 0px;
+	overflow: hidden;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	line-height: 18px;
+	padding: 0px 0px 0px 35px;
+	width: 250px;
+	font-family: bembo;
+	margin: 0;
+
+	  -webkit-transition: height 1s ease;
+     -moz-transition: height 0.25s ease;
+       -o-transition: height 0.25s ease;
+      -ms-transition: height 0.4s ease;
+          transition: height 0.5s ease;
+}
+
+.menu-item:hover ul {
+	height: 375px;
+}
+
+.menu-item li a {
+	margin-left: 0px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	text-decoration: none;
+	display: block;
+}
+
+p.source {
+	font-size: 13px;
+}
