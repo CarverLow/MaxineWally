@@ -106,6 +106,7 @@ nav {
 	border-left-style: none;
 	border-bottom-style: none;
 	border-right-style: solid;
+	border-width: 2px;
 	top: 149px;
 	left: 90px;
 	margin: 25px auto;
@@ -116,7 +117,6 @@ nav {
 	font-size: 18px;
 	font-weight: 600;
 	font-variant: small caps;
-	padding: 0px 5px 0px 90px;
 	font-variant: small caps;
 	line-height: 3.0;	
 }
