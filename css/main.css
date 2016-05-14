@@ -99,7 +99,8 @@ div.article {
 nav {
 	position: absolute;
 	font-family: gill sans;
-	font-variant: small caps
+	font-variant: small caps;
+	text-align: center;
 	line-height: 3.5;
 	width: 248px;
 	border-top-style: solid;
