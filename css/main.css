@@ -10,7 +10,7 @@ a {
 
 .logo {
 	position: relative;
-	top: 65px;
+	top: 45px;
 	left: 130px;
 	width: 200px;
 	height: 100px;
@@ -110,6 +110,7 @@ nav {
 	border-width: 2px;
 	top: 149px;
 	left: 90px;
+	margin-right: -25px;
 }
 
 .menu-item h4 {
