@@ -161,6 +161,10 @@ nav {
 	display: block;
 }
 
+.menu-item ul li:hover {
+	background: #ddd;
+}
+
 p.source {
 	font-size: 13px;
 }
