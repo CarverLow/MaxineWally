@@ -119,14 +119,14 @@ nav {
 	font-weight: 600;
 	font-variant: small caps;
 	font-variant: small caps;
-	line-height: 3.0;	
+	line-height: 3.0;
+	display: block;
 }
 
 .menu-item h4 a {
   color: black;
   display: block;
   text-decoration: none;
-  width: 200px;
 }
 
 .menu-item ul {
