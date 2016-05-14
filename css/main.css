@@ -153,6 +153,11 @@ nav {
 	height: 375px;
 }
 
+.menu-item ul li {
+	align: center;
+	display: block;
+}
+
 .menu-item li a {
 	margin-left: 0px;
 	text-align: center;
