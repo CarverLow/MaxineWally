@@ -10,7 +10,7 @@ a {
 
 .logo {
 	position: relative;
-	top: 65px;
+	top: 45px;
 	left: 130px;
 	width: 200px;
 	height: 100px;
@@ -110,7 +110,6 @@ nav {
 	border-width: 2px;
 	top: 149px;
 	left: 90px;
-	margin: 25px auto;
 }
 
 .menu-item h4 {
@@ -119,14 +118,14 @@ nav {
 	font-weight: 600;
 	font-variant: small caps;
 	font-variant: small caps;
-	line-height: 3.0;	
+	line-height: 3.0;
+	display: block;
 }
 
 .menu-item h4 a {
   color: black;
   display: block;
   text-decoration: none;
-  width: 200px;
 }
 
 .menu-item ul {
@@ -138,7 +137,7 @@ nav {
 	font-weight: 400;
 	line-height: 18px;
 	padding: 0px 0px 0px 0px;
-	width: 275px;
+	width: 248px;
 	font-family: bembo;
 	margin: 0;
 
@@ -150,14 +149,20 @@ nav {
 }
 
 .menu-item:hover ul {
-	height: 375px;
+	height: 475px;
+}
+
+.menu-item ul li {
+	align: center;
+	display: block;
 }
 
 .menu-item li a {
 	margin-left: 0px;
-	margin-top: 11px;
-	margin-bottom: 11px;
+	text-align: center;
+	padding: 12px;
 	text-decoration: none;
+	width: 248px;
 	display: block;
 }
 
