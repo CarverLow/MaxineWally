@@ -53,15 +53,15 @@ div.contact {
 	border: 2px #000000;
 	border-top-style: none;
 	border-left-style: none;
-	border-bottom-style: solid;
-	border-right-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
 }
 
 nav {
-	position: absolute;
+	float: left;
 	font-family: gill sans;
 	font-variant: small caps;
-	text-align: center;
+	text-align: right;
 	line-height: 3.5;
 	width: 248px;
 	border-top-style: solid;
@@ -96,7 +96,7 @@ div.date {
 }
 
 div.article {
-	position: absolute;
+	float: left;
 	font-family: bembo;
 	font-size: 15px;
 	left: 380px;
@@ -125,7 +125,7 @@ div.article {
 	height: 0px;
 	text-decoration: none;
 	list-style-type: none;
-	text-align: center;
+	text-align: right;
 	font-weight: 900;
 	line-height: 18px;
 	padding: 0px 0px 0px 0px;
