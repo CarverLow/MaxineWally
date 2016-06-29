@@ -36,7 +36,7 @@ div.name {
 	border-top-style: none;
 	border-left-style: none;
 	border-bottom-style: none;
-	border-right-style: none;
+	border-right-style: solid;
 }
 
 div.name h1 {
@@ -63,15 +63,14 @@ nav {
 	font-variant: small caps;
 	text-align: right;
 	line-height: 3.5;
-	width: 248px;
-	border-top-style: solid;
+	width: 260px;
+	border-top-style: none;
 	border-left-style: none;
 	border-bottom-style: none;
 	border-right-style: solid;
 	border-width: 2px;
-	top: 149px;
-	left: 90px;
 	margin: 25px auto;
+	background: #c99;
 }
 
 div.ArticleName {
@@ -85,6 +84,7 @@ div.ArticleName {
 	border-left-style: none;
 	border-bottom-style: none;
 	border-right-style: none;
+	background: #9c9;
 }
 
 div.date {
