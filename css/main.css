@@ -1,23 +1,26 @@
 MaxineWally
 
-#body {
-	margin: 40px auto;
+body {
 	color: #DDD33;
 }
-
 a {
 	text-decoration: none;
 }
 
+#left-column {
+	float: left;
+	margin-left: 50px;
+	border: 4px #00000;
+	border-right-style: solid;
+	width: 300px;
+	
+}
+
 .logo {
 	float: left;
-	width: 200px;
+	width: 300px;
 	height: 100px;
-	border: 2px #000000;
-	border-top-style: none;
-	border-left-style: none;
-	border-bottom-style: none;
-	border-right-style: solid;
+
 	clear: left;
 }
 img.resize{
@@ -29,15 +32,11 @@ div.name {
 	font-size: 20px;
 	font-family: gill sans;
 	font-variant: small caps;
+	text-align: right;
 	float: left;
 	height: 80px;
 	width: 300px;
-	padding: 0px 0px 0px 5px;
-	border: 2px #000000;
-	border-top-style: none;
-	border-left-style: none;
-	border-bottom-style: none;
-	border-right-style: solid;
+	padding: 0px 0px 0px 0px;
 	clear: left;
 }
 
@@ -50,13 +49,8 @@ div.contact {
 	font-family: gill sans;
 	float: left;
 	height: 44px;
-	width: 250px;
-	padding: 25px 25px 0px 25px;
-	border: 2px #000000;
-	border-top-style: none;
-	border-left-style: none;
-	border-bottom-style: none;
-	border-right-style: solid;
+	width: 300px;
+	padding: 0px 0px 0px 25px;
 	clear: left;
 }
 
@@ -66,14 +60,8 @@ nav {
 	font-variant: small caps;
 	text-align: right;
 	line-height: 3.5;
-	width: 260px;
-	border-top-style: none;
-	border-left-style: none;
-	border-bottom-style: none;
-	border-right-style: solid;
-	border-width: 2px;
-	margin: 25px auto;
-	background: #c99;
+	width: 300px;
+	background: #c9969;
 	clear: left;
 }
 
@@ -83,11 +71,6 @@ div.ArticleName {
 	font-weight: bold;
 	padding: 30px 30px 0px 0px;
 	float: right;
-	border: 2px #000000;
-	border-top-style: solid;
-	border-left-style: none;
-	border-bottom-style: none;
-	border-right-style: none;
 	background: #9c9;
 }
 
@@ -123,7 +106,7 @@ div.article {
   color: black;
   display: block;
   text-decoration: none;
-  width: 200px;
+  width: 300px;
 }
 
 .menu-item ul {
@@ -134,7 +117,7 @@ div.article {
 	font-weight: 900;
 	line-height: 18px;
 	padding: 0px 0px 0px 0px;
-	width: 275px;
+	width: 300px;
 	font-family: Gill Sans;
 	margin: 0;
 }
