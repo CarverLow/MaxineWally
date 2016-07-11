@@ -37,7 +37,7 @@ div.name {
 	float: left;
 	height: 35px;
 	width: 300px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 25px 0px 0px;
 	clear: left;
 }
 
@@ -52,7 +52,8 @@ div.contact {
 	text-align-right
 	height: 44px;
 	width: 300px;
-	padding: 0px 25px 0px 25px;
+	padding: 0px 25px 0px 0px;
+	/** margin: 0px 25px 0px 0px; **/
 	clear: left;
 }
 
@@ -101,6 +102,7 @@ div.article {
 	font-variant: small caps;
 	line-height: 3.0;
 	text-decoration: none;
+	padding: 0px 25px 0px 0px;
 	clear: left;
 }
 
@@ -119,7 +121,7 @@ div.article {
 	font-weight: 900;
 	line-height: 18px;
 	height: 60px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 25px 0px 0px;
 	width: 300px;
 	font-family: Gill Sans;
 	margin: 0;
