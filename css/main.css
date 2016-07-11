@@ -35,7 +35,7 @@ div.name {
 	font-variant: small caps;
 	text-align: right;
 	float: left;
-	height: 80px;
+	height: 35px;
 	width: 300px;
 	padding: 0px 0px 0px 0px;
 	clear: left;
@@ -49,9 +49,10 @@ div.contact {
 	font-size: 12px;
 	font-family: gill sans;
 	float: left;
+	text-align-right
 	height: 44px;
 	width: 300px;
-	padding: 0px 0px 0px 25px;
+	padding: 0px 25px 0px 25px;
 	clear: left;
 }
 
@@ -60,7 +61,6 @@ nav {
 	font-family: gill sans;
 	font-variant: small caps;
 	text-align: right;
-	line-height: 3.5;
 	width: 300px;
 	background: #c9969;
 	clear: left;
@@ -84,7 +84,7 @@ div.date {
 }
 
 div.article {
-	float: left;
+	float: right;
 	font-family: bembo;
 	font-size: 15px;
 	left: 380px;
@@ -100,11 +100,12 @@ div.article {
 	font-variant: small caps;
 	font-variant: small caps;
 	line-height: 3.0;
+	text-decoration: none;
 	clear: left;
 }
 
 .menu-item h4 a {
-  color: black;
+  color: #00000;
   display: block;
   text-decoration: none;
   width: 300px;
@@ -117,6 +118,7 @@ div.article {
 	text-align: right;
 	font-weight: 900;
 	line-height: 18px;
+	height: 60px;
 	padding: 0px 0px 0px 0px;
 	width: 300px;
 	font-family: Gill Sans;
@@ -129,10 +131,11 @@ div.article {
 
 .menu-item li a {
 	margin-left: 0px;
-	margin-top: 11px;
-	margin-bottom: 11px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	text-decoration: none;
 	display: block;
+	color: black;
 }
 
 .menu-item ul li:hover {
