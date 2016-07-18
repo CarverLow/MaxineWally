@@ -37,6 +37,7 @@ div.name {
 	font-variant: small caps;
 	text-align: right;
 	float: left;
+	width: 280px;
 	height: 35px;
 	padding: 0px 25px 0px 0px;
 	clear: left;
@@ -52,6 +53,7 @@ div.contact {
 	float: left;
 	text-align: right;
 	height: 44px;
+	width: 280px;
 	padding: 0px 0px 0px 0px;
 	/** margin: 0px 25px 0px 0px; **/
 	clear: left;
@@ -62,6 +64,7 @@ nav {
 	font-family: gill sans;
 	font-variant: small caps;
 	text-align: right;
+	width: 280px;
 	background: #c9969;
 	clear: left;
 }
