@@ -12,6 +12,7 @@ a {
 	float: left;
 	margin-left: 50px;
 	margin-right:20px;
+	margin-top: 50px;
 	border: 4px #00000;
 	border-right-style: solid;
 	width: 325px;
@@ -93,12 +94,13 @@ nav {
 	list-style-type: none;
 	text-align: right;
 	font-weight: 500;
+	font-size: 15px;
 	line-height: 18px;
 	height: 60px;
 	padding: 0px 0px 0px 0px;
 	width: 300px;
 	font-family: Gill Sans;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 /* .menu-item:hover ul {
