@@ -10,9 +10,10 @@ a {
 #left-column {
 	float: left;
 	margin-left: 50px;
+	margin-right:30px;
 	border: 4px #00000;
 	border-right-style: solid;
-	width: 300px;
+	width: 350px;
 	height: 850px;
 	
 }
@@ -21,12 +22,12 @@ a {
 	float: left;
 	width: 300px;
 	height: 100px;
-
+	img align: right;
 	clear: left;
 }
 img.resize{
-   max-width: 74%;
-   max-height: 74%;
+   max-width: 100%;
+   max-height: 100%;
 }
 
 div.name {
@@ -52,7 +53,7 @@ div.contact {
 	text-align: right;
 	height: 44px;
 	width: 300px;
-	padding: 0px 25px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	/** margin: 0px 25px 0px 0px; **/
 	clear: left;
 }
@@ -67,38 +68,10 @@ nav {
 	clear: left;
 }
 
-div.ArticleName {
-	font-family: bembo;
-	font-size: 18px;
-	font-weight: bold;
-	padding: 30px 30px 0px 0px;
-	float: right;
-	background: #9c9;
-}
-
-div.date {
-	float: right;
-	font-family: gill sans;
-	font-size: 16px;
-	top: 230px;
-	left: 380px;
-}
-
-div.article {
-	float: right;
-	font-family: bembo;
-	font-size: 15px;
-	left: 380px;
-	top: 245px;
-	width: 520px;
-	border: 2px #000000;
-}
-
 .menu-item h4 {
 	color: #00000;
 	font-size: 18px;
-	font-weight: 600;
-	font-variant: small caps;
+	font-weight: 300;
 	font-variant: small caps;
 	line-height: 3.0;
 	text-decoration: none;
@@ -144,6 +117,33 @@ div.article {
 	background: #ddd;
 }
 
+
+div.ArticleName {
+	font-family: bembo;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 30px 30px 0px 0px;
+	float: right;
+	background: #9c9;
+}
+
+div.date {
+	float: right;
+	font-family: gill sans;
+	font-size: 16px;
+	top: 230px;
+	left: 380px;
+}
+
+div.article {
+	float: right;
+	font-family: bembo;
+	font-size: 15px;
+	left: 380px;
+	top: 245px;
+	width: 520px;
+	border: 2px #000000;
+}
 p.source {
 	font-size: 13px;
 }
