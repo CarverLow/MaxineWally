@@ -3,6 +3,7 @@ MaxineWally
 body {
 	color: #DDD33;
 }
+
 a {
 	text-decoration: none;
 }
@@ -10,10 +11,10 @@ a {
 #left-column {
 	float: left;
 	margin-left: 50px;
-	margin-right:30px;
+	margin-right:20px;
 	border: 4px #00000;
 	border-right-style: solid;
-	width: 350px;
+	width: 325px;
 	height: 850px;
 	
 }
@@ -22,7 +23,7 @@ a {
 	float: left;
 	width: 300px;
 	height: 100px;
-	img align: right;
+	align: right;
 	clear: left;
 }
 img.resize{
@@ -71,7 +72,7 @@ nav {
 .menu-item h4 {
 	color: #00000;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 500;
 	font-variant: small caps;
 	line-height: 3.0;
 	text-decoration: none;
@@ -91,13 +92,13 @@ nav {
 	text-decoration: none;
 	list-style-type: none;
 	text-align: right;
-	font-weight: 900;
+	font-weight: 500;
 	line-height: 18px;
 	height: 60px;
-	padding: 0px 25px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	width: 300px;
 	font-family: Gill Sans;
-	margin: 0;
+	margin: 10px 0;
 }
 
 /* .menu-item:hover ul {
