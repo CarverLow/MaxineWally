@@ -100,7 +100,7 @@ nav {
 	padding: 0px 0px 0px 0px;
 	width: 300px;
 	font-family: Gill Sans;
-	margin: 20px 0;
+	margin: 20px 10;
 }
 
 /* .menu-item:hover ul {
@@ -108,10 +108,8 @@ nav {
 } */
 
 .menu-item li a {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	text-decoration: none;
+	margin: 10px 0;
 	display: block;
 	color: black;
 }
