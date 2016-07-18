@@ -22,7 +22,6 @@ a {
 
 .logo {
 	float: left;
-	width: 300px;
 	height: 100px;
 	align: right;
 	clear: left;
@@ -39,7 +38,6 @@ div.name {
 	text-align: right;
 	float: left;
 	height: 35px;
-	width: 300px;
 	padding: 0px 25px 0px 0px;
 	clear: left;
 }
@@ -54,7 +52,6 @@ div.contact {
 	float: left;
 	text-align: right;
 	height: 44px;
-	width: 300px;
 	padding: 0px 0px 0px 0px;
 	/** margin: 0px 25px 0px 0px; **/
 	clear: left;
@@ -65,7 +62,6 @@ nav {
 	font-family: gill sans;
 	font-variant: small caps;
 	text-align: right;
-	width: 300px;
 	background: #c9969;
 	clear: left;
 }
@@ -98,7 +94,6 @@ nav {
 	line-height: 18px;
 	height: 60px;
 	padding: 0px 0px 0px 0px;
-	width: 300px;
 	font-family: Gill Sans;
 	margin: 20px 10;
 }
