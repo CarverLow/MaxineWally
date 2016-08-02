@@ -10,7 +10,8 @@ a {
 
 #left-column {
 	float: left;
-	margin-left: 40px;
+	left: 20px;
+	margin-left: 20px;
 	margin-right:20px;
 	margin-top: 40px;
 	border: 4px #00000;
