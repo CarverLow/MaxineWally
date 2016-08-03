@@ -62,6 +62,10 @@ div.contact {
 	clear: left;
 }
 
+div.contact a {
+	text-decoration: none;
+}
+
 nav {
 	float: left;
 	font-family: gill sans;
@@ -89,6 +93,7 @@ nav {
   display: block;
   text-decoration: none;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 .menu-item ul {
@@ -109,7 +114,7 @@ nav {
 	height: 375px;
 } */
 
-.menu-item li a {
+.menu-item ul a {
 	text-decoration: none;
 	margin: 20px 20px 0;
 	position: relative;
@@ -117,17 +122,17 @@ nav {
 	color: black;
 }
 
-.menu-item li a:after {
+.menu-item ul a:after {
   content: '';
   position: absolute;
   bottom: 0;
   right: 0;
   width: 0%;
-  border-bottom: 2px solid #ffdc73;
+  border-bottom: 1px solid #ffdc73;
   transition: 0.4s;
 }
 
-.menu-item ul li:hover:after {
+.menu-item ul li a:hover:after {
 	width: 100%;
 }
 
