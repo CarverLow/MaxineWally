@@ -24,7 +24,7 @@ a {
 .logo {
 	float: left;
 	height: 100px;
-	align: right;
+	margin-left: 70px;
 	clear: left;
 }
 img.resize{
@@ -112,12 +112,23 @@ nav {
 .menu-item li a {
 	text-decoration: none;
 	margin: 20px 20px 0;
+	position: relative;
 	display: block;
 	color: black;
 }
 
-.menu-item ul li:hover {
-	background: #ddd;
+.menu-item li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  border-bottom: 2px solid #ffdc73;
+  transition: 0.4s;
+}
+
+.menu-item ul li:hover:after {
+	width: 100%;
 }
 
 
