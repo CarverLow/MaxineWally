@@ -38,7 +38,7 @@ div.name {
 	font-variant: small caps;
 	text-align: right;
 	float: left;
-	width: 280px;
+	width: 260px;
 	height: 35px;
 	margin-right:20px;
 	padding: 0px 25px 0px 0px;
@@ -55,9 +55,9 @@ div.contact {
 	float: left;
 	text-align: right;
 	height: 44px;
-	width: 280px;
+	width: 260px;
 	margin-right:20px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 25px 0px 0px;
 	/** margin: 0px 25px 0px 0px; **/
 	clear: left;
 }
@@ -78,8 +78,8 @@ nav {
 	font-size: 18px;
 	font-weight: 500;
 	font-variant: small caps;
-	line-height: 3.0;
 	text-decoration: none;
+	margin: 30px 0;
 	padding: 0px 0px 0px 0px;
 	clear: left;
 }
@@ -88,7 +88,7 @@ nav {
   color: #00000;
   display: block;
   text-decoration: none;
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 .menu-item ul {
