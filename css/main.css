@@ -16,7 +16,7 @@ a {
 	margin-top: 40px;
 	border: 4px #00000;
 	border-right-style: solid;
-	width: 280px;
+	width: 300px;
 	height: 680px;
 	
 }
@@ -33,11 +33,12 @@ img.resize{
 }
 
 div.name {
-	font-size: 20px;
+	font-size: 28px;
 	font-family: gill sans;
 	font-variant: small caps;
 	text-align: right;
 	float: left;
+	letter-spacing: 1.2px;
 	width: 260px;
 	height: 30px;
 	margin-right:20px;
@@ -50,7 +51,7 @@ div.name h1 {
 }
 
 div.contact {
-	font-size: 12px;
+	font-size: 14px;
 	font-family: gill sans;
 	float: left;
 	text-align: right;
@@ -71,7 +72,7 @@ nav {
 	font-family: gill sans;
 	font-variant: small caps;
 	text-align: right;
-	width: 280px;
+	width: 300px;
 	margin-right:20px;
 	background: #c9969;
 	clear: left;
@@ -79,10 +80,11 @@ nav {
 
 .menu-item h4 {
 	color: #00000;
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: 500;
 	font-variant: small caps;
 	text-decoration: none;
+	letter-spacing: 1.2px;
 	margin: 30px 0;
 	padding: 0px 0px 0px 0px;
 	clear: left;
@@ -100,7 +102,8 @@ nav {
 	color: #00000;
 	font-weight: 500;
 	margin-right: 20px;
-	font-size: 18px;
+	letter-spacing: 4px;
+	font-size: 28px;
 	clear: left;
 }
 
@@ -110,9 +113,10 @@ nav {
 	list-style-type: none;
 	text-align: right;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 18px;
 	height: 60px;
+	letter-spacing: 1.1px;
 	padding: 0px 0px 0px 0px;
 	font-family: Gill Sans;
 	margin: 20px 10;
