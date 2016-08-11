@@ -96,6 +96,13 @@ nav {
   text-decoration: none;
 }
 
+.menu-item h3 {
+	color: #00000;
+	font-weight: 700;
+	font-size: 18px;
+	clear: left;
+}
+
 .menu-item ul {
 	height: 0px;
 	text-decoration: none;
