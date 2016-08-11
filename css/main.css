@@ -17,7 +17,7 @@ a {
 	border: 4px #00000;
 	border-right-style: solid;
 	width: 280px;
-	height: 780px;
+	height: 680px;
 	
 }
 
@@ -39,7 +39,7 @@ div.name {
 	text-align: right;
 	float: left;
 	width: 260px;
-	height: 35px;
+	height: 30px;
 	margin-right:20px;
 	padding: 0px 25px 0px 0px;
 	clear: left;
@@ -54,7 +54,7 @@ div.contact {
 	font-family: gill sans;
 	float: left;
 	text-align: right;
-	height: 44px;
+	height: 50px;
 	width: 260px;
 	margin-right:20px;
 	padding: 0px 25px 0px 0px;
@@ -98,7 +98,8 @@ nav {
 
 .menu-item h3 {
 	color: #00000;
-	font-weight: 700;
+	font-weight: 500;
+	margin-right: 20px;
 	font-size: 18px;
 	clear: left;
 }
