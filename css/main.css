@@ -37,7 +37,7 @@ img.resize{
 div.name {
 	font-size: 28px;
 	font-family: Helvetica Neue;
-	font-variant: small caps;
+	font-variant: small-caps;
 	text-align: right;
 	float: left;
 	letter-spacing: 1.1px;
@@ -83,7 +83,7 @@ nav {
 .menu-item h4 {
 	color: #00000;
 	font-size: 28px;
-	font-weight: 500;
+	font-weight: 300;
 	font-variant: small caps;
 	text-decoration: none;
 	letter-spacing: 1.5px;
@@ -102,7 +102,7 @@ nav {
 
 .menu-item h3 {
 	color: #00000;
-	font-weight: 500;
+	font-weight: 300;
 	margin-right: 20px;
 	letter-spacing: 1.5px;
 	font-size: 28px;
@@ -115,7 +115,7 @@ nav {
 	text-decoration: none;
 	list-style-type: none;
 	text-align: right;
-	font-weight: 500;
+	font-weight: 300;
 	font-size: 18px;
 	line-height: 18px;
 	height: 60px;
