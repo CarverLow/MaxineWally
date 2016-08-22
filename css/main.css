@@ -122,7 +122,6 @@ nav {
 	letter-spacing: 1.1px;
 	padding: 0px 0px 0px 0px;
 	font-family: Helvetica Neue;
-	margin: 20px 10;
 }
 
 /* .menu-item:hover ul {
@@ -137,20 +136,29 @@ nav {
 	color: black;
 }
 
-.menu-item ul a:after {
+.menu-item li a:after {
   content: '';
   position: absolute;
   bottom: 0;
   right: 0;
   width: 0%;
-  border-bottom: 6px solid #ffdc73;
+  border-bottom: 2px solid #ffdc73;
   transition: 0.4s;
 }
 
 .menu-item ul li a:hover:after {
 	width: 100%;
+	
 }
 
+#right-column {
+	display: block;
+	width: 500px;
+}
+
+#right-column p {
+	font-family: helvetica neue;
+}
 
 div.ArticleName {
 	font-family: bembo;
