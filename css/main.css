@@ -28,11 +28,12 @@ a {
 	margin-left: 70px;
 	clear: left;
 }
-img.resize{
-   max-width: 80%;
-   max-height: 80%;
-}
 **/
+img {
+   max-width: 60%;
+   max-height: 60%;
+   left: 400px;
+}
 
 div.name {
 	font-size: 28px;
