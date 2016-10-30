@@ -162,6 +162,17 @@ nav {
 #right-column p {
 	font-family: helvetica neue;
 }
+
+div.article {
+	float: right;
+	font-family: Bembo;
+	font-size: 15px;
+	left: 380px;
+	top: 245px;
+	width: auto;
+	border: 2px #000000;
+}
+
 /*
 div.ArticleName {
 	font-family: bembo;
@@ -178,16 +189,6 @@ div.date {
 	font-size: 16px;
 	top: 230px;
 	left: 380px;
-}
-
-div.article {
-	float: right;
-	font-family: bembo;
-	font-size: 15px;
-	left: 380px;
-	top: 245px;
-	width: 520px;
-	border: 2px #000000;
 }
 p.source {
 	font-size: 13px;
