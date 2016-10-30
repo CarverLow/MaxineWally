@@ -17,7 +17,7 @@ a {
 	border: 4px #00000;
 	border-right-style: solid;
 	width: 300px;
-	height: 680px;
+	height: 710px;
 	
 }
 
@@ -33,6 +33,7 @@ img {
    max-width: 60%;
    max-height: 60%;
    left: 400px;
+   Float: right;
 }
 
 div.name {
@@ -41,6 +42,7 @@ div.name {
 	font-variant: small-caps;
 	text-align: right;
 	float: left;
+	font-weight: 600;
 	letter-spacing: 1.1px;
 	width: 280px;
 	height: 30px;
@@ -84,7 +86,7 @@ nav {
 .menu-item h4 {
 	color: #00000;
 	font-size: 28px;
-	font-weight: 300;
+	font-weight: 400;
 	font-variant: small caps;
 	text-decoration: none;
 	letter-spacing: 1.5px;
@@ -116,9 +118,9 @@ nav {
 	text-decoration: none;
 	list-style-type: none;
 	text-align: right;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
-	line-height: 18px;
+	line-height: 20px;
 	height: 60px;
 	letter-spacing: 1.1px;
 	padding: 0px 0px 0px 0px;
@@ -160,7 +162,7 @@ nav {
 #right-column p {
 	font-family: helvetica neue;
 }
-
+/*
 div.ArticleName {
 	font-family: bembo;
 	font-size: 18px;
@@ -190,3 +192,4 @@ div.article {
 p.source {
 	font-size: 13px;
 }
+*/
