@@ -18,7 +18,14 @@ a {
 	border-right-style: solid;
 	width: 30%;
 	height: 710px;
-	
+}
+
+#right-column
+{
+	display: block;;
+	width: 60%;
+	float: right;
+	margin-top: 40px;
 }
 
 /**
@@ -30,10 +37,9 @@ a {
 }
 **/
 img {
-   max-width: 50%;
+   max-width: 65%;
    height: auto;
    right: 100px;
-   Float: right;
 }
 
 div.name {
@@ -154,23 +160,18 @@ nav {
 	
 }
 
-#right-column
-{
-	display: block;;
-	width: 60%;
-	float: right;
-}
-
 #right-column p {
 	font-family: helvetica neue;
 	float: right;
-	width: 60%
+	width: 60%;
+	margin-top: 40px;
 }
 
-div.article {
+.article {
 	font-family: Bembo;
 	font-size: 15px;
 	width: auto;
+
 }
 
 /*
