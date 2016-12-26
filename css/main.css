@@ -8,6 +8,15 @@ a {
 	text-decoration: none;
 }
 
+@font-face {
+	font-family: 'lato';
+	src: url('lato.eot'); /* IE9 Compat Modes */
+	src: url('lato.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('lato.woff') format('woff'), /* Modern Browsers */
+	     url('lato.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('lato.svg#svgLato') format('svg'); /* Legacy iOS */
+	}
+
 #left-column {
 	float: left;
 	left: 20px;
@@ -44,7 +53,7 @@ img {
 
 div.name {
 	font-size: 28px;
-	font-family: Helvetica Neue;
+	font-family: lato;
 	font-variant: small-caps;
 	text-align: right;
 	float: right;
@@ -62,13 +71,13 @@ div.name h1 {
 
 div.contact {
 	font-size: 14px;
-	font-family: Helvetica Neue;
+	font-family: lato;
 	float: right;
 	text-align: right;
 	height: 50px;
 	width: inherit;
 	margin-right: 20px;
-	padding: 9px 25px 0px 0px;
+	padding: 9px 0px 0px 0px;
 	/** margin: 0px 25px 0px 0px; **/
 	clear: left;
 }
@@ -79,7 +88,7 @@ div.contact a {
 
 nav {
 	float: left;
-	font-family: Helvetica Neue;
+	font-family: lato;
 	font-variant: small caps;
 	text-align: right;
 	margin-right:20px;
@@ -128,7 +137,7 @@ nav {
 	height: 60px;
 	letter-spacing: 1.1px;
 	padding: 0px 0px 0px 0px;
-	font-family: Helvetica Neue;
+	font-family: lato;
 }
 
 /* .menu-item:hover ul {
@@ -159,7 +168,7 @@ nav {
 }
 
 #right-column p {
-	font-family: helvetica neue;
+	font-family: lato;
 	float: left;
 	width: 60%;
 	margin-top: 40px;
