@@ -1,21 +1,8 @@
 MaxineWally
 
-body {
-	color: #DDD33;
-}
-
 a {
 	text-decoration: none;
 }
-
-@font-face {
-	font-family: 'lato';
-	src: url('lato.eot'); /* IE9 Compat Modes */
-	src: url('lato.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('lato.woff') format('woff'), /* Modern Browsers */
-	     url('lato.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('lato.svg#svgLato') format('svg'); /* Legacy iOS */
-	}
 
 #left-column {
 	float: left;
@@ -23,7 +10,6 @@ a {
 	margin-left: 30px;
 	margin-right:20px;
 	margin-top: 40px;
-	border: 4px #00000;
 	border-right-style: solid;
 	width: 30%;
 	height: 710px;
@@ -54,7 +40,7 @@ img {
 
 div.name {
 	font-size: 28px;
-	font-family: lato;
+	font-family: 'Lato', sans-serif	;
 	font-variant: small-caps;
 	text-align: right;
 	float: right;
@@ -71,7 +57,7 @@ div.name h1 {
 
 div.contact {
 	font-size: 14px;
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
 	float: right;
 	text-align: right;
 	height: 50px;
@@ -88,16 +74,14 @@ div.contact a {
 
 nav {
 	float: left;
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
 	font-variant: small caps;
 	text-align: right;
 	margin-right:20px;
-	background: #c9969;
 	clear: left;
 }
 
 .menu-item h4 {
-	color: #00000;
 	font-size: 28px;
 	font-weight: 600;
 	font-variant: small caps;
@@ -109,7 +93,6 @@ nav {
 }
 
 .menu-item h4 a {
-  color: #00000;
   display: block;
   text-decoration: none;
   margin-right: 20px;
@@ -117,13 +100,14 @@ nav {
 }
 
 .menu-item h3 {
-	color: #00000;
 	font-weight: 300;
 	margin-right: 20px;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.3px;
 	font-size: 24px;
 	margin-top: 60px;
 	clear: left;
+	text-align: center;
+	margin-left: 40px;
 }
 
 .menu-item ul {
@@ -135,9 +119,10 @@ nav {
 	font-size: 18px;
 	line-height: 20px;
 	height: 60px;
-	letter-spacing: 1.1px;
+	letter-spacing: .15px;
 	padding: 0px 0px 0px 0px;
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
 }
 
 /* .menu-item:hover ul {
@@ -168,38 +153,15 @@ nav {
 }
 
 #right-column p {
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
 	float: left;
 	width: inherit;
 	margin-top: 40px;
 }
 
 .article {
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
-	width: 380px;
+	width: 80%;
 	float: left;
-
 }
-
-/*
-div.ArticleName {
-	font-family: bembo;
-	font-size: 18px;
-	font-weight: bold;
-	padding: 30px 30px 0px 0px;
-	float: right;
-	background: #9c9;
-}
-
-div.date {
-	float: right;
-	font-family: Helvetica Neue;
-	font-size: 16px;
-	top: 230px;
-	left: 380px;
-}
-p.source {
-	font-size: 13px;
-}
-*/
